@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement Statistics</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    .placement-section {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .download-btn {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      background: #007bff;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .download-btn:hover {
+      background: #0056b3;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✅ ";
+    }
+    @media (max-width: 600px) {
+      table, th, td {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="placement-section">
+    <h2>🎓 Placement Statistics</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Highest Package</th>
+          <th>Avg Package</th>
+          <th>Placement %</th>
+          <th>Top Recruiters</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2025</td>
+          <td>₹18 LPA</td>
+          <td>₹6.5 LPA</td>
+          <td>92%</td>
+          <td>TCS, Amazon, Infosys</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>₹16 LPA</td>
+          <td>₹6.1 LPA</td>
+          <td>89%</td>
+          <td>Wipro, HCL, Accenture</td>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>₹14 LPA</td>
+          <td>₹5.8 LPA</td>
+          <td>85%</td>
+          <td>IBM, Capgemini, Cognizant</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="#" class="download-btn">📄 Download Placement Report</a>
+    <ul>
+      <li>100+ companies visited in 2025</li>
+      <li>Strong IT & Core sector presence</li>
+      <li>70% internship-to-placement conversion</li>
+    </ul>
+  </section>
+</body>
+</html>

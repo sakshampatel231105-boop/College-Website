@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+    .contact-section {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .contact-item {
+      flex: 1 1 250px;
+      background-color: #f9f9f9;
+      padding: 15px 20px;
+      border-left: 4px solid #007bff;
+      border-radius: 5px;
+    }
+    .contact-item h4 {
+      margin: 0 0 8px;
+      color: #007bff;
+    }
+    .contact-item p {
+      margin: 4px 0;
+      color: #333;
+    }
+    @media (max-width: 600px) {
+      .contact-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="contact-section">
+    <h2> Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <h4>Address</h4>
+        <p>Shri Ramswaroop College of Engineering and Management</p>
+        <p>Ayodhya Road,Lucknow</p>
+      </div>
+      <div class="contact-item">
+        <h4>Phone</h4>
+        <p>Office: +91 98765 43210</p>
+        <p>Admissions: +91 91234 56789</p>
+      </div>
+      <div class="contact-item">
+        <h4>Email</h4>
+        <p>srmcem.ac.in</p>
+        <p>admissions@srmcem.edu.in</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Offered | College Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .course-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            min-width: 280px;
+            transition: transform 0.2s;
+        }
+
+        .course-card:hover {
+            transform: scale(1.02);
+        }
+
+        .course-image img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .course-content {
+            padding: 15px;
+        }
+
+        .course-title {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #003366;
+        }
+
+        .course-description {
+            color: #555;
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .courses {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .course-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Courses Offered</h1>
+        <p>Explore the academic programs available at Our College</p>
+    </header>
+
+    <div class="container">
+        <div class="courses">
+
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://th.bing.com/th/id/R.c10bded0c5694d68667bd6167305ac34?rik=zIFir4JtGYSO2Q&riu=http%3a%2f%2fruzivo.in%2fwp-content%2fuploads%2f2017%2f11%2fBSc-Computer-Science-AI-and-Data-Science-Ruzivo-School-e1673842217603.jpg&ehk=zzZn0CuUYE4%2bMJgLxglgcsQwFOm%2fG8J%2fXJp9LG%2fTse8%3d&risl=&pid=ImgRaw&r=0" alt="Computer Science">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">B.Sc. in Computer Science</h2>
+                    <p class="course-description">Learn programming, data structures, algorithms, and software development with a modern curriculum.</p>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://www.tcc.edu/uploads/images/pages/programs/transfer/business-administration-transfer-degree.jpg" alt="Business Administration">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">BBA - Business Administration</h2>
+                    <p class="course-description">Develop managerial and entrepreneurial skills for the business world with real-life case studies.</p>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/956/241/large_2x/human-head-profile-and-jigsaw-puzzle-representing-concepts-in-cognitive-psychology-or-psychotherapy-mental-health-and-brain-problems-with-line-design-created-using-tools-photo.jpg" alt="Psychology">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">BA in Psychology</h2>
+                    <p class="course-description">Study human behavior, mental health, and counseling theories for a career in psychology and social work.</p>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.JjfyC9Bs5wJnya6m2Q-M1gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Engineering">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">B.Tech in Computer Science</h2>
+                    <p class="course-description">Gain hands-on experience in design, DSA, Python and other programming languages to build innovative solutions.</p>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Biology-Background-Widescreen.jpg" alt="Biology">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">B.Sc. in Biology</h2>
+                    <p class="course-description">Explore life sciences, genetics, and ecological systems in an interactive and research-driven environment.</p>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="course-card">
+                <div class="course-image">
+                    <img src="https://hobbyworkspace.in/wp-content/uploads/2016/10/FA-copy-scaled-1.jpg" alt="Fine Arts">
+                </div>
+                <div class="course-content">
+                    <h2 class="course-title">BA in Fine Arts</h2>
+                    <p class="course-description">Unleash your creativity through painting, sculpture, and visual storytelling with expert guidance.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
